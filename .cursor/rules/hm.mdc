@@ -1,0 +1,28 @@
+---
+alwaysApply: true
+---
+# 基本规则
+- 总是用中文回复
+- Harmony 项目的 ForEach 循环必须添加类型,没用上的_也必须添加类型
+- 对象类型必须用 interface 抽离
+- 图片素材在 entry/src/main/resources/base/media,需通过 $r('app.media.') 访问图片
+- 组件的必传属性需初始化
+- 图片类型为 ResourceStr
+- interface 写在最顶部
+- build 的根标签如果填充颜色的话，需写上 .expandSafeArea()
+- Row、Column 的子组件控制间距尽量用 space 参数，尽量少用 margin
+- 白色和黑色用 Color.White 和 Color.Black 代替
+
+# 布局模式
+- 线性布局 (Row/Column)
+- 层叠布局 (Stack)
+- 弹性布局 (Flex)
+- 相对布局 (RelativeContainer)
+- 栅格布局 (GridRow/GridCol)
+- 创建列表 (List)
+- 创建网格 (Grid/GridItem)
+- 创建轮播 (Swiper)
+
+# 滚动相关
+- 支持滚动和滑动的组件 List/ListItem/ListItemGroup、Grid/GridItem、Scroll、Swiper、WaterFlow/FlowItem、ScrollBar、Refresh、SwipeRefresher
+- 嵌套滚动可使用 nestedScroll 属性，实现与父组件的滚动联动
