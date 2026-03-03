@@ -1,4 +1,4 @@
-<img width="450" height="1006" alt="图片" src="https://github.com/user-attachments/assets/0705b2d2-578b-4678-be36-92deb6d4db3d" />一个简易的音乐播放demo
+
 
 1. 首页推荐
 <img width="459" height="968" alt="图片" src="https://github.com/user-attachments/assets/94c2b388-4c84-43bf-8cfd-462bbd61f743" />
